@@ -1,7 +1,4 @@
-![GitHub issues open](https://img.shields.io/github/issues/Geonhee-LEE/mpc_ros)
-![GitHub forks](https://img.shields.io/github/forks/Geonhee-LEE/mpc_ros)
-![GitHub stars](https://img.shields.io/github/stars/Geonhee-LEE/mpc_ros)
-![GitHub license](https://img.shields.io/github/license/Geonhee-LEE/mpc_ros)
+
 
 
 # Nonlinear Model Predictive Control 
@@ -15,7 +12,7 @@ The NMPC can provide the poweful and effective performance among existing optima
 
 
 ## Features
-* Nonlinear Model Pridictive Control (through [ipopt solver](https://coin-or.github.io/Ipopt/))  
+* Nonlinear Model Pridictive Control 
 * Wheeled Mobile Robot 
 
 
@@ -31,7 +28,7 @@ The NMPC can provide the poweful and effective performance among existing optima
     ros-melodic-amcl
     ```
   
-4. Install Ipopt: Please refer the tutorial in ["document/ipopt_install"](https://github.com/Geonhee-LEE/mpc_ros/tree/melodic/assets/document/ipopt_install).  
+4. Install Ipopt
 5. Create your own catkin_ws and clone the repositories.
     ```
     git clone https://github.com/Geonhee-LEE/mpc_ros.git 
@@ -41,7 +38,7 @@ The NMPC can provide the poweful and effective performance among existing optima
       git clone https://github.com/CzJaewan/servingbot.git
       ```
       
-    > NOTE: you can also refer other models such as ackermann model, holonomic model. you can see it [mpc_ros_description](https://github.com/Geonhee-LEE/mpc_ros_description)
+    > NOTE: you can also refer other models such as ackermann model, holonomic model.
   
 6. Build (_catkin_make_) and Try it.
 
@@ -70,22 +67,3 @@ roslaunch mpc_ros ref_trajectory_tracking_gazebo.launch
 ```
 <param name="base_local_planner" value="mpc_ros/MPCPlannerROS"/>
 ```
-
-
-
-## Youtube video
----
-[![Video Label](http://img.youtube.com/vi/5IqFGBmDGjU/0.jpg)](https://www.youtube.com/watch?v=5IqFGBmDGjU) 
-
-
-### About us
-Contact: gunhee6392@gmail.com  
-Date: 2020/05/02  
-License: Apache 2.0
-
-
-### Reference
-
-- HyphaROS MPC MiniCar(https://hypharosworkshop.wordpress.com/)
-- Udacity Self-Driving Car Nanodegree - Model Predictive Control (MPC) Project(https://github.com/darienmt/CarND-MPC-Project-P5)
-- (Korean) Path Tracking with Nonlinear Model Predictive Control for Differential Drive Wheeled Robot(https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE10475067)
